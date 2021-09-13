@@ -1,0 +1,14 @@
+9월 12, 2021 8:25:50 오후 com.study.basic.ch06.log.MyLogger log
+미세: test
+9월 12, 2021 8:25:50 오후 com.study.basic.ch06.log.MyLogger log
+구성: test
+9월 12, 2021 8:25:50 오후 com.study.basic.ch06.log.MyLogger log
+정보: test
+9월 12, 2021 8:25:50 오후 com.study.basic.ch06.log.MyLogger log
+경고: test
+9월 12, 2021 8:25:50 오후 com.study.basic.ch06.log.MyLogger log
+심각: test
+9월 12, 2021 8:48:48 오후 com.study.basic.ch06.log.MyLogger warning
+경고: name must not be null
+9월 12, 2021 8:48:48 오후 com.study.basic.ch06.log.MyLogger warning
+경고: 이름이 너무 길어요
