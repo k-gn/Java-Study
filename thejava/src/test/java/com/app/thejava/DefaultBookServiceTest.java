@@ -7,12 +7,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BookServiceTest {
+class DefaultBookServiceTest {
 
-	@Autowired BookService bookService;
+	@Autowired
+	BookServiceProxy bookServiceProxy;
 
 	@Test
 	void di() {
-		assertNotNull(bookService);
+		assertNotNull(bookServiceProxy);
+	}
+
+	@Test
+	void rent() {
+		Book book = new Book();
+		bookServiceProxy.rent(book);
 	}
 }
